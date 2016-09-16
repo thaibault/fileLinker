@@ -4,7 +4,7 @@
     "documentationWebsite": {
         "name": "fileLinker",
         "tagline": "Keeps hard links in sync.",
-        "trackingCode": ""
+        "trackingCode": "UA-40192634-18"
     },
     "scripts": {
       "updateDocumentation": "documentationWebsite --log-level info"
