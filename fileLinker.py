@@ -46,6 +46,8 @@ except builtins.ImportError:
 
 sys.path.append(os.environ['ILU_PUBLIC_REPOSITORY_PATH'])
 
+# # python3.5 pass
+from boostNode import convert_to_unicode
 from boostNode.aspect.signature import add_check as add_signature_check
 from boostNode.extension.file import Handler as FileHandler
 from boostNode.extension.native import Iterable, Module, \
