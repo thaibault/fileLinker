@@ -1,9 +1,9 @@
 {
     "name": "filelinker",
     "version": "1.0.0",
+    "description": "keeps hard links in sync.",
     "documentationWebsite": {
         "name": "fileLinker",
-        "tagline": "Keeps hard links in sync.",
         "trackingCode": "UA-40192634-18"
     },
     "scripts": {
