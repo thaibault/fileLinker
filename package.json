@@ -1,0 +1,28 @@
+{
+    "name": "filelinker",
+    "version": "1.0.0",
+    "documentationWebsite": {
+        "name": "fileLinker",
+        "tagline": "Keeps hard links in sync.",
+        "trackingCode": ""
+    },
+    "scripts": {
+      "updateDocumentation": "documentationWebsite --log-level info"
+    },
+    "devDependencies": {
+      "documentation-website": "latest"
+    },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/thaibault/fileLinker"
+      },
+  "keywords": [
+    "python",
+    "hardlink",
+    "ensure",
+    "service"
+  ],
+  "homepage": "http://torben.website/fileLinker",
+
+  "license": "CC-BY-3.0"
+}
