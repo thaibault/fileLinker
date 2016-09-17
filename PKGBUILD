@@ -16,10 +16,14 @@ pkgdesc='automate your installation process'
 arch=('any')
 url='http://torben.website/fileLinker'
 license=('CC-BY-3.0')
-depends=('python)
+depends=('python')
 provides=(file-linker)
 source=('https://raw.githubusercontent.com/thaibault/fileLinker/master/fileLinker.py')
 md5sums=('SKIP')
+
+pkgver() {
+    printf "1.0.$(git rev-list --count HEAD)"
+}
 
 package() {
     install -D --mode 755 "${srcdir}/fileLinker.py" \
