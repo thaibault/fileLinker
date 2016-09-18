@@ -2,6 +2,7 @@
     "name": "filelinker",
     "version": "1.0.0",
     "description": "keeps hard links in sync.",
+    "main": "filelinker.py",
     "documentationWebsite": {
         "trackingCode": "UA-40192634-18"
     },
