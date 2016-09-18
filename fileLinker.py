@@ -15,14 +15,14 @@ from __future__ import absolute_import, division, print_function, \
 # #
 
 '''
-    For conventions see "boostNode/__init__.py" on \
-    https://github.com/thaibault/boostNode
+    For conventions see "boostnode/__init__.py" on \
+    https://github.com/thaibault/boostnode
 '''
 
 __author__ = 'Torben Sickert'
-__copyright__ = 'see boostNode/__init__.py'
+__copyright__ = 'see boostnode/__init__.py'
 __credits__ = 'Torben Sickert',
-__license__ = 'see boostNode/__init__.py'
+__license__ = 'see boostnode/__init__.py'
 __maintainer__ = 'Torben Sickert'
 __maintainer_email__ = 'info["~at~"]torben.website'
 __status__ = 'stable'
@@ -47,16 +47,16 @@ except builtins.ImportError:
 sys.path.append(os.environ['ILU_PUBLIC_REPOSITORY_PATH'])
 
 # # python3.5 pass
-from boostNode import convert_to_unicode
-from boostNode.aspect.signature import add_check as add_signature_check
-from boostNode.extension.file import Handler as FileHandler
-from boostNode.extension.native import Iterable, Module, \
+from boostnode import convert_to_unicode
+from boostnode.aspect.signature import add_check as add_signature_check
+from boostnode.extension.file import Handler as FileHandler
+from boostnode.extension.native import Iterable, Module, \
     InstancePropertyInitializer
-from boostNode.extension.system import CommandLine, Runnable
-# # python3.5 from boostNode.extension.type import Self
+from boostnode.extension.system import CommandLine, Runnable
+# # python3.5 from boostnode.extension.type import Self
 pass
-from boostNode.paradigm.aspectOrientation import JointPoint
-from boostNode.paradigm.objectOrientation import Class
+from boostnode.paradigm.aspectOrientation import JointPoint
+from boostnode.paradigm.objectOrientation import Class
 
 '''
     Add signature checking for all functions and methods with joint points in \
@@ -636,8 +636,6 @@ Module.default(name=__name__, frame=inspect.currentframe())
 # endregion
 
 # region vim modline
-
 # vim: set tabstop=4 shiftwidth=4 expandtab:
 # vim: foldmethod=marker foldmarker=region,endregion:
-
 # endregion

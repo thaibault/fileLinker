@@ -9,22 +9,22 @@
 # This library written by Torben Sickert stand under a creative commons naming
 # 3.0 unported license. see http://creativecommons.org/licenses/by/3.0/deed.de
 # endregion
-pkgname=file-linker
-pkgver=1.0.2
-pkgrel=8
+pkgname=filelinker
+pkgver=1.0.3
+pkgrel=9
 pkgdesc='keeps hard links in sync.'
 arch=('any')
-url='http://torben.website/fileLinker'
+url='http://torben.website/filelinker'
 license=('CC-BY-3.0')
-depends=('python')
-provides=(file-linker)
-source=('fileLinker.py')
+depends=('python' 'boostnode')
+provides=(filelinker)
+source=('filelinker.py')
 md5sums=('SKIP')
 copyToAUR=true
 
 package() {
-    install -D --mode 755 "${srcdir}/fileLinker.py" \
-        "${pkgdir}/usr/bin/file-linker"
+    install -D --mode 755 "${srcdir}/filelinker.py" \
+        "${pkgdir}/usr/bin/filelinker"
 }
 # region vim modline
 # vim: set tabstop=4 shiftwidth=4 expandtab:
