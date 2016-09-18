@@ -7,7 +7,6 @@
     "trackingCode": "UA-40192634-18"
   },
   "scripts": {
-    "document": "node_modules/boostnode/runnable/generateAPIDocumentation.py",
     "update": "npm run clear && npm version patch && npm publish",
     "updateDocumentation": "documentationWebsite --log-level info",
     "clear": "rm apiDocumentation --recursive --force && find './' -type f -name '*.pyc' -delete && find './' -type f -name '*.pyo' -delete"
