@@ -1,10 +1,22 @@
 {
   "name": "filelinker",
   "version": "1.0.1",
+  "license": "CC-BY-3.0",
   "description": "keeps hard links in sync.",
-  "main": "filelinker.py",
+  "homepage": "http://torben.website/filelinker",
   "documentationWebsite": {
     "trackingCode": "UA-40192634-18"
+  },
+  "keywords": [
+    "python",
+    "hardlink",
+    "ensure",
+    "service"
+  ],
+  "main": "filelinker.py",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thaibault/filelinker"
   },
   "scripts": {
     "update": "npm run clear && npm version patch && npm publish",
@@ -16,17 +28,5 @@
   },
   "devDependencies": {
     "documentation-website": "latest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thaibault/filelinker"
-  },
-  "keywords": [
-    "python",
-    "hardlink",
-    "ensure",
-    "service"
-  ],
-  "homepage": "http://torben.website/filelinker",
-  "license": "CC-BY-3.0"
+  }
 }
