@@ -12,7 +12,7 @@ License
 
 endregion -->
 
-[![Build Status](https://travis-ci.org/thaibault/fileLinker.svg?branch=master)](https://travis-ci.org/thaibault/fileLinker)
+[![Build Status](https://travis-ci.org/thaibault/filelinker.svg?branch=master)](https://travis-ci.org/thaibault/filelinker)
 
 Use case
 --------
