@@ -29,6 +29,6 @@
     "boostnode": "latest"
   },
   "devDependencies": {
-    "documentation-website": "latest"
+    "documentation-website": "^1.0.75"
   }
 }
