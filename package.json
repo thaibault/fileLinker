@@ -25,10 +25,10 @@
     "update": "npm run clear && npm version patch && npm publish",
     "update:documentation": "documentationWebsite --log-level info"
   },
-  "dependencies": {
-    "boostnode": "latest"
-  },
   "devDependencies": {
-    "documentation-website": "^1.0.75"
+    "documentation-website": "^1.0.82"
+  },
+  "dependencies": {
+    "boostnode": "^1.0.7"
   }
 }
