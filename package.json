@@ -26,7 +26,7 @@
     "update:documentation": "documentationWebsite --log-level info"
   },
   "devDependencies": {
-    "documentation-website": "^1.0.88"
+    "documentation-website": "^1.0.89"
   },
   "dependencies": {
     "boostnode": "^1.0.9"
