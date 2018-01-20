@@ -14,6 +14,9 @@
     "service"
   ],
   "main": "filelinker.py",
+  "bin": {
+    "fileinker": "filelinker.py"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/thaibault/filelinker"
