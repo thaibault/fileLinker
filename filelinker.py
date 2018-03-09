@@ -44,7 +44,7 @@ try:
 except builtins.ImportError:
     pyinotify = None
 
-sys.path.append('./node_modules/')
+sys.path.append(os.path.abspath(sys.path[0] + os.sep + 'node_modules'))
 
 # # python3.5 pass
 from boostnode import convert_to_unicode
