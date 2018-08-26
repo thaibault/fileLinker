@@ -24,8 +24,8 @@
   "scripts": {
     "clear": "rm apiDocumentation --recursive --force && find './' -type f -name '*.pyc' -delete && find './' -type f -name '*.pyo' -delete",
     "lint": "hash autopep8 && autopep8 --list-fixes filelinker.py || echo Please install \"autopep8\". || true",
-    "test": "npm run lint && ./filelinker.py --help",
-    "update": "npm run clear && npm version patch && npm publish",
+    "test": "yarn lint && ./filelinker.py --help",
+    "update": "yarn clear && yarn version --patch && yarn publish",
     "update:documentation": "documentationWebsite --log-level info"
   },
   "devDependencies": {
