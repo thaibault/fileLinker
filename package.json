@@ -3,7 +3,7 @@
   "version": "1.0.9",
   "license": "CC-BY-3.0",
   "description": "keeps hard links in sync.",
-  "homepage": "http://torben.website/filelinker",
+  "homepage": "https://torben.website/filelinker",
   "documentationWebsite": {
     "trackingCode": "UA-40192634-18"
   },
@@ -29,9 +29,9 @@
     "update:documentation": "documentationWebsite --log-level info"
   },
   "devDependencies": {
-    "documentation-website": "^1.0.89"
+    "documentation-website": "*"
   },
   "dependencies": {
-    "boostnode": "^1.0.9"
+    "boostnode": "*"
   }
 }
