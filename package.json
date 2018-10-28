@@ -15,7 +15,7 @@
   ],
   "main": "filelinker.py",
   "bin": {
-    "fileinker": "filelinker.py"
+    "filelinker": "filelinker.py"
   },
   "repository": {
     "type": "git",
