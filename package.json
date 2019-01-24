@@ -1,6 +1,6 @@
 {
   "name": "filelinker",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "license": "CC-BY-3.0",
   "description": "keeps hard links in sync.",
   "homepage": "https://torben.website/filelinker",
