@@ -28,10 +28,10 @@
     "update": "yarn clear && yarn version --patch && yarn publish",
     "update:documentation": "documentationWebsite --log-level info"
   },
-  "devDependencies": {
-    "documentation-website": "*"
-  },
   "dependencies": {
     "boostnode": "*"
+  },
+  "devDependencies": {
+    "documentation-website": "*"
   }
 }
